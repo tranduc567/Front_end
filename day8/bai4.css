@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+}
+h2 {
+  margin: 0;
+}
+.container {
+  width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.news_letter {
+  padding: 100px 50px;
+  background-color: #eff1ff;
+  border-radius: 15px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.news_letter::before {
+  content: "";
+  background-image: url(https://frontend.daca.vn/lessons/lesson-6/images/dots.svg);
+  /* background-color: red; */
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.subtitle {
+  padding: 10px 20px;
+  background-color: #e8dffc;
+  color: #b966e7;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  display: inline-flex;
+}
+.title {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+.description {
+  color: #6b7385;
+}
+.form_info {
+  position: relative;
+  background-color: white;
+  width: 45%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+.form_info input {
+  border: 1px solid white;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.form_info button {
+  position: relative;
+  padding-inline: 20px;
+  background-color: #a04ecd;
+  border: 1px solid #a04ecd;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  height: 50px;
+}

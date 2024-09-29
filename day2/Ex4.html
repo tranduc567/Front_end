@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Câu 1: Tạo form Đăng ký tài khoản</h2>
+    <form action="https://www.w3schools.com/action_page.php">
+      <label for="full_name">Họ tên: </label> <br />
+      <input
+        type="text"
+        name="Full-Name"
+        id="full_name"
+        required
+        placeholder="Vi du: levana"
+      />
+      <br />
+      <label for="email">Email:</label>
+      <br />
+      <input
+        type="email"
+        id="email"
+        name="Email"
+        required
+        placeholder="Vi du: levana@gmail.com"
+      />
+      <br />
+      <label for="password">Mật khẩu: </label> <br />
+      <input type="password" name="Mat-Khau" id="password" required />
+      <br />
+      <br />
+      <button>Đăng ký</button>
+    </form>
+
+    <h2>Câu 2: Tạo form Đăng ký chi tiết</h2>
+    <form action="https://www.w3schools.com/action_page.php">
+      <label for="fullname">Họ tên: </label> <br />
+      <input type="text" id="fullname" name="Họ tên: " required /> <br />
+      <label for="email">Email: </label> <br />
+      <input type="email" id="email" name="Email: " required /> <br />
+      <label for="password">Mật khẩu: </label> <br />
+      <input type="password" id="password" name="Password: " required /> <br />
+      <label for="confirm_password">Họ tên: </label> <br />
+      <input
+        type="password"
+        id="confirm_password"
+        name="Confirm_password"
+        required
+      />
+      <br />
+      <label for="sex">Giới tính: </label> <br />
+      <input type="radio" name="Man" id="man" />
+      <label for="man">Nam</label> <br />
+      <input type="radio" name="Man" id="girl" />
+      <label for="girl">Nữ</label> <br />
+      <input type="radio" name="Man" id="other" />
+      <label for="other">Khác</label> <br />
+
+      <label for="country">Quốc Gia: </label>
+      <select id="country" name="country">
+        <option value="vietnam">Việt Nam</option>
+        <option value="vietnam">Nhật Bản</option>
+        <option value="vietnam">Thái Lan</option>
+      </select>
+      <br />
+      <br />
+      <button>Đăng ký</button>
+    </form>
+    <h2>Câu 3: Tạo form Đánh giá sản phẩm</h2>
+    <form action="https://www.w3schools.com/action_page.php">
+      <label for="name">Tên sản phẩm: </label> <br />
+      <input type="text" id="name" name="Name of Product: " /> <br />
+      <label for="rating">Đánh giá: </label> <br />
+      <input type="radio" id="5-stars" name="rating" value="5" />
+      <label for="5-stars"> 5 sao </label> <br />
+      <input type="radio" id="5-stars" name="rating" value="4" />
+      <label for="4-stars"> 4 sao </label> <br />
+      <input type="radio" id="5-stars" name="rating" value="3" />
+      <label for="3-stars"> 3 sao </label> <br />
+      <input type="radio" id="5-stars" name="rating" value="2" />
+      <label for="2-stars"> 2 sao </label> <br />
+      <input type="radio" id="5-stars" name="rating" value="1" />
+      <label for="1-stars"> 1 sao </label> <br />
+      <label for="comment">Bình luận: </label> <br />
+      <textarea name="comment" id="comment"></textarea>
+      <br />
+      <br /><button>Gửi đánh giá</button>
+    </form>
+    <!--  -->
+    <h2>Câu 4: Tạo form Liên hệ</h2>
+    <form action="https://www.w3schools.com/action_page.php">
+      <label for="full_name">Họ tên: </label> <br />
+      <input
+        type="text"
+        name="Full-Name"
+        id="full_name"
+        required
+        placeholder="Vi du: levana"
+      />
+      <br />
+      <label for="email">Email:</label>
+      <br />
+      <input
+        type="email"
+        id="email"
+        name="Email"
+        required
+        placeholder="Vi du: levana@gmail.com"
+      />
+      <br />
+      <label for="message_content">Nội dung tin nhắn: </label> <br />
+      <textarea name="message_content" id="message_content"></textarea>
+      <br />
+      <button>Gửi tin nhắn</button>
+    </form>
+    <h2>Câu 5: Tạo form Đặt phòng khách sạn</h2>
+    <form action="https://www.w3schools.com/action_page.php">
+      <label for="full_name">Họ tên: </label> <br />
+      <input
+        type="text"
+        name="Full-Name"
+        id="full_name"
+        required
+        placeholder="Vi du: levana"
+      />
+      <br />
+      <label for="email">Email:</label>
+      <br />
+      <input
+        type="email"
+        id="email"
+        name="Email"
+        required
+        placeholder="Vi du: levana@gmail.com"
+      />
+      <br />
+      <label for="checkindate">Ngày nhận phòng: </label>
+      <input type="date" id="checkindate" name="checkindate" /> <br />
+      <label for="checkoutdate">Ngày trả phòng: </label>
+      <input type="date" id="checkoutdate" name="checkoutdate" /> <br />
+      <label for="typeroom">Loại phòng: </label> <br />
+      <select name="typeroom" id="typeroom">
+        <option value="familyroom">Phòng Gia Đình</option>
+        <option value="viproom">Phòng ViP</option>
+        <option value="standardroom">Phòng Thường</option>
+      </select>
+      <label for="Specialrequest">Yêu cầu đặc biệt</label>
+      <textarea name="Specialrequest" id="Specialrequest"></textarea>
+
+      <br />
+      <br />
+      <button>Đặt phòng</button>
+    </form>
+    <h2>Câu 6: Tạo form Tìm kiếm</h2>
+    <form action="https://www.w3schools.com/action_page.php">
+      <input type="text" placeholder="Nhập từ khóa..." />
+      <button>Tìm kiếm</button>
+    </form>
+  </body>
+</html>

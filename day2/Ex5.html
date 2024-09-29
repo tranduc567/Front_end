@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 16px;
+        text-align: left;
+      }
+      th,
+      td {
+        padding: 12px;
+        border-bottom: 1px solid black;
+      }
+      th {
+        background-color: #f4f4f4;
+        color: #333;
+        text-transform: uppercase;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+      caption {
+        font-size: 1.5em;
+        margin: 10px 0;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tbody>
+        <form action="https://www.w3schools.com/action_page.php">
+          <tr>
+            <td>Họ tên:</td>
+            <td>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Vui lòng nhập Họ tên"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Mật khẩu:</td>
+            <td>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Vui lòng nhập Mật khẩu"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Giới tính:</td>
+            <td>
+              <input type="radio" id="male" name="male" />
+              <label for="male">Nam</label>
+              <input type="radio" id="female" name="female" />
+              <label for="female">Nữ</label
+              ><input type="radio" id="other" name="other" />
+              <label for="other">Khác</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Sở thích:</td>
+          </tr>
+        </form>
+      </tbody>
+    </table>
+  </body>
+</html>

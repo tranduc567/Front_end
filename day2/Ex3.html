@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Câu 1: Bài tập về Iframe</h2>
+    <iframe
+      id="google"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54728.754481867065!2d105.78783721428235!3d20.785898493098713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135b54c3159b73f%3A0x1b0e8f22b7d5ae01!2zQ8O0bmcgVHkgVE5ISCBDw7RuZyBOZ2jhu4cgVsOgIEThu4tjaCBW4bulIERBQ0E!5e0!3m2!1sen!2s!4v1724080732823!5m2!1sen!2s"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <!--  -->
+    <h2>Câu 2: Bài tập về form</h2>
+    <form action="https://www.w3schools.com/action_page.php" target="google">
+      <label for="full_name">Full Name</label>
+      <br />
+      <input
+        type="text"
+        name="Full Name"
+        id="full_name"
+        placeholder="Vi du: levana"
+        required
+      />
+      <br />
+      <label for="email">Email: </label>
+      <br />
+      <input
+        type="email"
+        name="Email"
+        id="email"
+        placeholder="Vi du: levana@gmail.com"
+        required
+      />
+      <br />
+      <label for="password">Password</label>
+      <br />
+      <input type="password" name="password" id="password" required />
+      <br />
+      <button>Đăng ký</button>
+    </form>
+
+    <h2>Cau 3</h2>
+    <form action="https://www.w3schools.com/action_page.php" target="google">
+      <label for="text">Kieu Text</label>
+      <br />
+      <input type="text" name="" id="text" placeholder="Nhap ho ten" />
+      <br />
+      <!--  -->
+      <label for="email">Kieu email</label>
+      <br />
+      <input type="email" name="" id="email" placeholder="Nhap Email" />
+      <br />
+      <!--  -->
+      <label for="password">Kieu password</label>
+      <br />
+      <input type="password" name="" id="password" />
+      <br />
+      <!--  -->
+      <label for="number">Kieu number</label>
+      <br />
+      <input type="number" name="" id="number" />
+      <br />
+      <!--  -->
+      <label for="date">Kieu date</label>
+      <br />
+      <input type="date" name="" id="date" />
+      <br />
+      <!--  -->
+      <label for="time">Kieu time</label>
+      <br />
+      <input type="time" name="" id="time" />
+      <br />
+      <!--  -->
+      <label for="file">Kieu file</label>
+      <br />
+      <input type="file" name="" id="file" />
+      <br />
+      <!--  -->
+      <label for="">Kieu radio</label> <br />
+      <input type="radio" name="sex" id="nam" />
+      <label for="nam">Nam</label> <br />
+      <input type="radio" name="sex" id="nu" />
+      <label for="nu">Nu</label> <br />
+      <input type="radio" name="sex" id="khac" />
+      <label for="khac">Khac</label> <br />
+      <br />
+      <!--  -->
+      <p>Kieu range:</p>
+      <p>Am luong (min = 0 va max = 100):</p>
+      <input type="range" min="0" max="100" step="20" />
+      <br />
+      <p>Kieu color:</p>
+      <input type="color" />
+
+      <h3>The select</h3>
+      <label for="select">Chon Danh Muc</label> <br />
+      <select name="select" id="select">
+        <option value="">--Please choose an option--</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="hamster">Hamster</option>
+        <option value="parrot">Parrot</option>
+        <option value="spider">Spider</option>
+        <option value="goldfish">Goldfish</option>
+      </select>
+      <h3>The text area</h3>
+      <textarea name="textarea" id="gigi" cols="30" rows="10"> </textarea>
+    </form>
+  </body>
+</html>
